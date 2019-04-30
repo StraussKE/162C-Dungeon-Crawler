@@ -115,6 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\dungeon_functions.cpp" />
+    <ClCompile Include="..\help_menu.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\monsters.cpp" />
+    <ClCompile Include="..\movement.cpp" />
+    <ClCompile Include="..\text_tables.cpp" />
+    <ClCompile Include="..\validation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dungeon_header.h" />
+    <ClInclude Include="..\help_menu.h" />
+    <ClInclude Include="..\monsters_header.h" />
+    <ClInclude Include="..\movement.h" />
+    <ClInclude Include="..\text_tables.h" />
+    <ClInclude Include="..\validation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
