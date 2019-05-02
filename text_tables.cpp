@@ -40,7 +40,7 @@ void hitWall (std::string moving_object)
                 break;
             case 3:
                 starBar();
-                std::cout << "Your quixotic effort to slay the wall has only gained you shame.\nPlease try something else.";
+                std::cout << "Your quixotic effort to slay the wall has only gained you shame.\nPlease try something else.\n";
                 break;
             default:
                 starBar();
